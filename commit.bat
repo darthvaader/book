@@ -1,6 +1,5 @@
 eval "$(ssh-agent -s)"
 cd ../../
-start cmd
 ssh-add chaves_github
 cd github/book
 git add .
